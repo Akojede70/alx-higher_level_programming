@@ -1,4 +1,4 @@
-##0x05. Python - Exceptions
+## 0x05. Python - Exceptions
 
 
 **0-safe_print_list.py:** Writing a function that prints x elements of a list.
@@ -64,7 +64,7 @@ You have to use try: / except: / finally:
 You are not allowed to import any module.
 
 
-**5-raise_exception.py: **Writing a function that raises a type exception.
+**5-raise_exception.py:** Writing a function that raises a type exception.
 Prototype: def raise_exception():
 You are not allowed to import any module.
 
