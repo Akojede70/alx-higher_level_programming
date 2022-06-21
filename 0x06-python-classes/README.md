@@ -1,4 +1,4 @@
-##python classes
+## Python classes
 
 
 **0-square.py:** Writing an empty class Square that defines a square:
