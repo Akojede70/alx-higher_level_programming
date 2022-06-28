@@ -1,11 +1,11 @@
 ## 0x08. Python - More Classes and Objects
 
 
-0-rectangle.py: Write an empty class Rectangle that defines a rectangle:
+**0-rectangle.py:** Writing an empty class Rectangle that defines a rectangle:
 You are not allowed to import any module.
 
 
-1-rectangle.py: Write a class Rectangle that defines a rectangle by: (based on 0-rectangle.py)
+**1-rectangle.py:** Writing a class Rectangle that defines a rectangle by: (based on 0-rectangle.py)
 Private instance attribute: width:
 property def width(self): to retrieve it.
 property setter def width(self, value): to set it:
@@ -20,7 +20,7 @@ Instantiation with optional width and height: def __init__(self, width=0, height
 You are not allowed to import any module.
 
 
-2-rectangle.py: Write a class Rectangle that defines a rectangle by: (based on 1-rectangle.py)
+**2-rectangle.py:** Writing a class Rectangle that defines a rectangle by: (based on 1-rectangle.py)
 Private instance attribute: width:
 property def width(self): to retrieve it.
 property setter def width(self, value): to set it:
@@ -38,7 +38,7 @@ if width or height is equal to 0, perimeter is equal to 0.
 You are not allowed to import any module.
 
 
-3-rectangle.py: Write a class Rectangle that defines a rectangle by: (based on 2-rectangle.py)
+**3-rectangle.py:** Writing a class Rectangle that defines a rectangle by: (based on 2-rectangle.py)
 Private instance attribute: width:
 property def width(self): to retrieve it.
 property setter def width(self, value): to set it:
@@ -58,7 +58,7 @@ if width or height is equal to 0, return an empty string.
 You are not allowed to import any module.
 
 
-4-rectangle.py: Write a class Rectangle that defines a rectangle by: (based on 3-rectangle.py)
+**4-rectangle.py:** Writing a class Rectangle that defines a rectangle by: (based on 3-rectangle.py)
 Private instance attribute: width:
 property def width(self): to retrieve it.
 property setter def width(self, value): to set it:
@@ -79,7 +79,7 @@ repr() should return a string representation of the rectangle to be able to recr
 You are not allowed to import any module.
 
 
-5-rectangle.py: Write a class Rectangle that defines a rectangle by: (based on 4-rectangle.py).
+**5-rectangle.py:** Writing a class Rectangle that defines a rectangle by: (based on 4-rectangle.py).
 Private instance attribute: width:
 property def width(self): to retrieve it.
 property setter def width(self, value): to set it:
@@ -101,7 +101,7 @@ Print the message Bye rectangle... (... being 3 dots not ellipsis) when an insta
 You are not allowed to import any module.
 
 
-6-rectangle.py: Write a class Rectangle that defines a rectangle by: (based on 5-rectangle.py)
+**6-rectangle.py:** Writing a class Rectangle that defines a rectangle by: (based on 5-rectangle.py)
 Private instance attribute: width:
 property def width(self): to retrieve it.
 property setter def width(self, value): to set it:
@@ -127,7 +127,7 @@ Print the message Bye rectangle... (... being 3 dots not ellipsis) when an insta
 You are not allowed to import any module.
 
 
-7-rectangle.py: Write a class Rectangle that defines a rectangle by: (based on 6-rectangle.py)
+**7-rectangle.py:** Writing a class Rectangle that defines a rectangle by: (based on 6-rectangle.py)
 Private instance attribute: width:
 property def width(self): to retrieve it.
 property setter def width(self, value): to set it:
@@ -157,7 +157,7 @@ Print the message Bye rectangle... (... being 3 dots not ellipsis) when an insta
 You are not allowed to import any module.
 
 
-8-rectangle.py: Write a class Rectangle that defines a rectangle by: (based on 7-rectangle.py)
+**8-rectangle.py:** Writing a class Rectangle that defines a rectangle by: (based on 7-rectangle.py)
 Private instance attribute: width:
 property def width(self): to retrieve it.
 property setter def width(self, value): to set it:
@@ -191,8 +191,7 @@ Returns rect_1 if both have the same area value.
 You are not allowed to import any module.
 
 
-9-rectangle.py: Write a class Rectangle that defines a rectangle by: (based on 8-rectangle.py)
-
+**9-rectangle.py:** Writing a class Rectangle that defines a rectangle by: (based on 8-rectangle.py)
 Private instance attribute: width:
 property def width(self): to retrieve it.
 property setter def width(self, value): to set it:
@@ -227,7 +226,7 @@ Class method def square(cls, size=0): that returns a new Rectangle instance with
 You are not allowed to import any module.
 
 
-101-nqueens.py: The N queens puzzle is the challenge of placing N non-attacking queens on an N×N chessboard. Write a program that solves the N queens problem.
+**101-nqueens.py:** The N queens puzzle is the challenge of placing N non-attacking queens on an N×N chessboard. Write a program that solves the N queens problem.
 Usage: nqueens N.
 If the user called the program with the wrong number of arguments, print Usage: nqueens N, followed by a new line, and exit with the status 1.
 where N must be an integer greater or equal to 4.
