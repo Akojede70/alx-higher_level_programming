@@ -1,10 +1,10 @@
 ##0x0C. Python - Almost a circle
 
 
-tests/: All your files, classes and methods must be unit tested and be PEP 8 validated.
+**tests/:** All your files, classes and methods must be unit tested and be PEP 8 validated.
 
 
-models/base.py, models/__init__.py: Write the first class Base:
+**models/base.py, models/__init__.py:** Writing the first class Base:
 Create a folder named models with an empty file __init__.py inside - with this file, the folder will become a Python package
 Create a file named models/base.py:
 Class Base:
@@ -15,7 +15,7 @@ otherwise, increment __nb_objects and assign the new value to the public instanc
 This class will be the “base” of all other classes in this project. The goal of it is to manage id attribute in all your future classes and to avoid duplicating the same code (by extension, same bugs).
 
 
-models/rectangle.py: Writing the class Rectangle that inherits from Base:
+**models/rectangle.py:** Writing the class Rectangle that inherits from Base:
 In the file models/rectangle.py
 Class Rectangle inherits from Base.
 Private instance attributes, each with its own public getter and setter:
@@ -30,13 +30,13 @@ Why private attributes with getter/setter? Why not directly public attribute?
 Because we want to protect attributes of our class. With a setter, you are able to validate what a developer is trying to assign to a variable. So after, in your class you can “trust” these attributes.
 
 
-models/rectangle.py: Updating the class Rectangle by adding validation of all setter methods and instantiation (id excluded):
+**models/rectangle.py:** Updating the class Rectangle by adding validation of all setter methods and instantiation (id excluded):
 If the input is not an integer, raise the TypeError exception with the message: <name of the attribute> must be an integer. Example: width must be an integer.
 If width or height is under or equals 0, raise the ValueError exception with the message: <name of the attribute> must be > 0. Example: width must be > 0.
 If x or y is under 0, raise the ValueError exception with the message: <name of the attribute> must be >= 0. Example: x must be >= 0.
 
 
-models/rectangle.py: Updating the class Rectangle by adding the public method def area(self): that returns the area value of the Rectangle instance.
+**models/rectangle.py:** Updating the class Rectangle by adding the public method def area(self): that returns the area value of the Rectangle instance.
 
 
 models/rectangle.py: Updating the class Rectangle by adding the public method def display(self): that prints in stdout the Rectangle instance with the character # - you don’t need to handle x and y here.
