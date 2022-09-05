@@ -1,4 +1,4 @@
-##JavaScript - Warm up
+## JavaScript - Warm up
 
 
 **0-javascript_is_amazing.js:** Writing a script that prints “JavaScript is amazing”:
