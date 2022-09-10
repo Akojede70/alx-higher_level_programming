@@ -1,7 +1,7 @@
-##0x0F. Python - Object-relational mapping
+## 0x0F. Python - Object-relational mapping
 
 
-0-select_states.py: Writing a script that lists all states from the database hbtn_0e_0_usa:
+**0-select_states.py:** Writing a script that lists all states from the database hbtn_0e_0_usa:
 Your script should take 3 arguments: mysql username, mysql password and database name (no argument validation needed).
 You must use the module MySQLdb (import MySQLdb).
 Your script should connect to a MySQL server running on localhost at port 3306.
@@ -10,7 +10,7 @@ Results must be displayed as they are in the example below.
 Your code should not be executed when imported.
 
 
-1-filter_states.py: Writing a script that lists all states with a name starting with N (upper N) from the database hbtn_0e_0_usa:
+**1-filter_states.py:** Writing a script that lists all states with a name starting with N (upper N) from the database hbtn_0e_0_usa:
 Your script should take 3 arguments: mysql username, mysql password and database name (no argument validation needed).
 You must use the module MySQLdb (import MySQLdb).
 Your script should connect to a MySQL server running on localhost at port 3306.
@@ -19,7 +19,7 @@ Results must be displayed as they are in the example below.
 Your code should not be executed when imported.
 
 
-2-my_filter_states.py: Writing a script that takes in an argument and displays all values in the states table of hbtn_0e_0_usa where name matches the argument.
+**2-my_filter_states.py:** Writing a script that takes in an argument and displays all values in the states table of hbtn_0e_0_usa where name matches the argument.
 Your script should take 4 arguments: mysql username, mysql password, database name and state name searched (no argument validation needed).
 You must use the module MySQLdb (import MySQLdb).
 Your script should connect to a MySQL server running on localhost at port 3306.
@@ -29,7 +29,7 @@ Results must be displayed as they are in the example below.
 Your code should not be executed when imported.
 
 
-3-my_safe_filter_states.py: Wait, do you remember the previous task? Did you test "Arizona'; TRUNCATE TABLE states ; SELECT * FROM states WHERE name = '" as an input?.
+**3-my_safe_filter_states.py:** Wait, do you remember the previous task? Did you test "Arizona'; TRUNCATE TABLE states ; SELECT * FROM states WHERE name = '" as an input?.
 What? Empty?
 Yes, it’s an SQL injection to delete all records of a table…
 Once again, write a script that takes in arguments and displays all values in the states table of hbtn_0e_0_usa where name matches the argument. But this time, write one that is safe from MySQL injections!
@@ -41,7 +41,7 @@ Results must be displayed as they are in the example below.
 Your code should not be executed when imported.
 
 
-4-cities_by_state.py: Writing a script that lists all cities from the database hbtn_0e_4_usa.
+**4-cities_by_state.py:** Writing a script that lists all cities from the database hbtn_0e_4_usa.
 Your script should take 3 arguments: mysql username, mysql password and database name.
 You must use the module MySQLdb (import MySQLdb).
 Your script should connect to a MySQL server running on localhost at port 3306.
@@ -51,7 +51,7 @@ Results must be displayed as they are in the example below.
 Your code should not be executed when imported.
 
 
-5-filter_cities.py: Writing a script that takes in the name of a state as an argument and lists all cities of that state, using the database hbtn_0e_4_usa
+**5-filter_cities.py:** Writing a script that takes in the name of a state as an argument and lists all cities of that state, using the database hbtn_0e_4_usa
 Your script should take 4 arguments: mysql username, mysql password, database name and state name (SQL injection free!).
 You must use the module MySQLdb (import MySQLdb).
 Your script should connect to a MySQL server running on localhost at port 3306.
@@ -61,7 +61,7 @@ The results must be displayed as they are in the example below.
 Your code should not be executed when imported.
 
 
-model_state.py: Writing a python file that contains the class definition of a State and an instance Base = declarative_base():
+**model_state.py:** Writing a python file that contains the class definition of a State and an instance Base = declarative_base():
 State class:
 inherits from Base Tips.
 links to the MySQL table states.
@@ -72,7 +72,7 @@ Your script should connect to a MySQL server running on localhost at port 3306.
 WARNING: all classes who inherit from Base must be imported before calling Base.metadata.create_all(engine).
 
 
-7-model_state_fetch_all.py: Writing a script that lists all State objects from the database hbtn_0e_6_usa
+**7-model_state_fetch_all.py:** Writing a script that lists all State objects from the database hbtn_0e_6_usa
 Your script should take 3 arguments: mysql username, mysql password and database name.
 You must use the module SQLAlchemy.
 You must import State and Base from model_state - from model_state import Base, State.
@@ -82,7 +82,7 @@ The results must be displayed as they are in the example below.
 Your code should not be executed when imported.
 
 
-8-model_state_fetch_first.py: Writing a script that prints the first State object from the database hbtn_0e_6_usa.
+**8-model_state_fetch_first.py:** Writing a script that prints the first State object from the database hbtn_0e_6_usa.
 Your script should take 3 arguments: mysql username, mysql password and database name.
 You must use the module SQLAlchemy.
 You must import State and Base from model_state - from model_state import Base, State.
@@ -94,7 +94,7 @@ If the table states is empty, print Nothing followed by a new line.
 Your code should not be executed when imported.
 
 
-9-model_state_filter_a.py: Writing a script that lists all State objects that contain the letter a from the database hbtn_0e_6_usa
+**9-model_state_filter_a.py:** Writing a script that lists all State objects that contain the letter a from the database hbtn_0e_6_usa
 Your script should take 3 arguments: mysql username, mysql password and database name.
 You must use the module SQLAlchemy.
 You must import State and Base from model_state - from model_state import Base, State.
@@ -104,7 +104,7 @@ The results must be displayed as they are in the example below.
 Your code should not be executed when imported.
 
 
-10-model_state_my_get.py: Writing a script that prints the State object with the name passed as argument from the database hbtn_0e_6_usa
+**10-model_state_my_get.py:** Writing a script that prints the State object with the name passed as argument from the database hbtn_0e_6_usa
 Your script should take 4 arguments: mysql username, mysql password, database name and state name to search (SQL injection free).
 You must use the module SQLAlchemy.
 You must import State and Base from model_state - from model_state import Base, State.
@@ -115,7 +115,7 @@ If no state has the name you searched for, display Not found.
 Your code should not be executed when imported.
 
 
-11-model_state_insert.py: Writing a script that adds the State object “Louisiana” to the database hbtn_0e_6_usa
+**11-model_state_insert.py:** Writing a script that adds the State object “Louisiana” to the database hbtn_0e_6_usa
 Your script should take 3 arguments: mysql username, mysql password and database name.
 You must use the module SQLAlchemy.
 You must import State and Base from model_state - from model_state import Base, State.
@@ -124,7 +124,7 @@ Print the new states.id after creation.
 Your code should not be executed when imported.
 
 
-12-model_state_update_id_2.py: Writing a script that changes the name of a State object from the database hbtn_0e_6_usa.
+**12-model_state_update_id_2.py:** Writing a script that changes the name of a State object from the database hbtn_0e_6_usa.
 Your script should take 3 arguments: mysql username, mysql password and database name.
 You must use the module SQLAlchemy.
 You must import State and Base from model_state - from model_state import Base, State.
@@ -133,7 +133,7 @@ Change the name of the State where id = 2 to New Mexico.
 Your code should not be executed when imported.
 
 
-13-model_state_delete_a.py: Writing a script that deletes all State objects with a name containing the letter a from the database hbtn_0e_6_usa.
+**13-model_state_delete_a.py:** Writing a script that deletes all State objects with a name containing the letter a from the database hbtn_0e_6_usa.
 Your script should take 3 arguments: mysql username, mysql password and database name.
 You must use the module SQLAlchemy.
 You must import State and Base from model_state - from model_state import Base, State.
@@ -141,7 +141,7 @@ Your script should connect to a MySQL server running on localhost at port 3306.
 Your code should not be executed when imported.
 
 
-model_city.py, 14-model_city_fetch_by_state.py: Writing a Python file similar to model_state.py named model_city.py that contains the class definition of a City.
+**model_city.py, 14-model_city_fetch_by_state.py:** Writing a Python file similar to model_state.py named model_city.py that contains the class definition of a City.
 City class:
 inherits from Base (imported from model_state).
 links to the MySQL table cities.
@@ -159,7 +159,7 @@ Results must be display as they are in the example below (<state name>: (<city i
 Your code should not be executed when imported.
 
 
-relationship_city.py, relationship_state.py, 100-relationship_states_cities.py: Improve the files model_city.py and model_state.py, and save them as relationship_city.py and relationship_state.py:
+**relationship_city.py, relationship_state.py, 100-relationship_states_cities.py:** Improve the files model_city.py and model_state.py, and save them as relationship_city.py and relationship_state.py:
 City class:
 No change
 State class:
@@ -173,7 +173,7 @@ You must use the cities relationship for all State objects.
 Your code should not be executed when imported.
 
 
-101-relationship_states_cities_list.py: Writing a script that lists all State objects, and corresponding City objects, contained in the database hbtn_0e_101_usa
+**101-relationship_states_cities_list.py:** Writing a script that lists all State objects, and corresponding City objects, contained in the database hbtn_0e_101_usa
 Your script should take 3 arguments: mysql username, mysql password and database name.
 You must use the module SQLAlchemy.
 The connection to your MySQL server must be to localhost on port 3306.
@@ -184,7 +184,7 @@ Results must be displayed as they are in the example below.
 Your code should not be executed when imported.
 
 
-102-relationship_cities_states_list.py: Writing a script that lists all City objects from the database hbtn_0e_101_usa
+**102-relationship_cities_states_list.py:** Writing a script that lists all City objects from the database hbtn_0e_101_usa
 Your script should take 3 arguments: mysql username, mysql password and database name.
 You must use the module SQLAlchemy.
 Your script should connect to a MySQL server running on localhost at port 3306.
